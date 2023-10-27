@@ -1,42 +1,90 @@
-.section-title{
-    /* text-align: right; */
-    margin-bottom: 40px;
+.section-title {
+  /* text-align: right; */
+  margin-bottom: 40px;
 }
-.about{
+.about {
+  padding: 80px 0;
+  /* padding: 150px 0;
+    display: flex;
+    gap: 50px;
+    position: relative; */
+}
+.about-us-text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+.margin-width {
+  margin-top: 20px;
+}
+.about-text-container {
+}
+.about-img-content {
+  width: 335px;
+  height: 499px;
+  margin-top: 50px;
+}
+.about-background {
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+
+}
+.about-img-background {
+  color: #fcf9f9;
+  opacity: 10%;
+}
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 100px 0;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .about-text-container {
+    padding: 0;
+  }
+  .about-background {
+    bottom: 50px;
+
+  }
+  .about-img-content {
+    width: 704px;
+    height: 545px;
+    margin-top: 40px;
+  
+}
+}
+@media screen and (min-width: 1280px) {
+  .about {
     padding: 150px 0;
     display: flex;
     gap: 50px;
     position: relative;
-    
-}
-.about-us-text{
-    /* width: 436px; */
-    color: rgba(252, 249, 249, 0.40);
+  }
+  .about-text-container {
+    padding: 45px 0;
+  }
+  .about-us-text {
+    width: 436px;
+    color: rgba(252, 249, 249, 0.4);
     text-align: left;
-font-size: 16px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.04em;
-
-}
- .margin-width{
-    margin-top: 20px;
-}
-.about-text-container{
-padding: 45px 0;
-}
-.about-img-content{
-
-}
-.about-background{
-    position: absolute;
-  bottom: 70px;
-    right: 0;
-
-}
-.about-img-background{
-    color: #FCF9F9;
-    opacity: 10%;
-  
-   
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+  .about-text-container {
+    padding: 45px 0;
+  }
+  .about-img-content {
+    width: 594px;
+    height: 545px;
+    margin-top: 0;
+  }
+  .about-background{
+    bottom: 70px;
+  }
 }
