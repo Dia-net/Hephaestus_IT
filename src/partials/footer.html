@@ -23,11 +23,31 @@
       </p>
     </div>
     <div class="ornament-container">
-      <img
-        class="ornament-footer"
-        src="./img/ornament-desktop-1x.png"
-        alt="ornament"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/ornament-mobile-1x.png 1x,
+            ./img/ornament-mobile-2x.png 2x
+          "
+        />
+        <source
+          srcset="
+            ./img/ornament-tablet-1x.png 1x,
+            ./img/ornament-tablet-2x.png 2x
+          "
+        />
+        <source
+          srcset="
+            ./img/ornament-desktop-1x.png 1x,
+            ./img/ornament-desktop-2x.png 2x
+          "
+        />
+        <img
+          class="ornament-footer"
+          src="./img/ornament-desktop-1x.png"
+          alt="ornament"
+        />
+      </picture>
     </div>
   </div>
 </footer>
