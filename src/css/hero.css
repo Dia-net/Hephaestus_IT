@@ -1,0 +1,71 @@
+.hero-container {
+  /* background-color: #1c2225; */
+  width: 335px;
+  height: 216px;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  color: #fcf9f9;
+  font-size: 44px;
+  line-height: 1.22;
+  letter-spacing: 0.03em;
+}
+
+.hero-title-wrap {
+  color: #ecd979;
+  font-size: 44px;
+  line-height: 1.22;
+  letter-spacing: 0.03em;
+}
+
+.hero-button-box {
+  padding-top: 20px;
+  padding-left: 70px;
+}
+
+.hero-button {
+  display: inline-flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: inherit;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+}
+
+.hero-button-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hero-button-icons-wrap {
+  width: 26px;
+  height: 10px;
+  transform: rotate(-30deg);
+  /* fill: #ecd979; */
+}
+
+.hero-button-icons {
+  fill: #ecd979;
+}
+
+.hero-img-wrap {
+  border-radius: 4px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.hero-img {
+}
