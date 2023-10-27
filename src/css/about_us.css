@@ -1,3 +1,23 @@
 .section-title{
     text-align: right;
+    margin-bottom: 40px;
+}
+.about{
+    padding: 150px 0;
+}
+.about-us-text{
+    width: 436px;
+    color: rgba(252, 249, 249, 0.40);
+    text-align: left;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+
+}
+ .margin-width{
+    margin-top: 20px;
+}
+.about-text-container{
+padding: 45px 0;
 }
