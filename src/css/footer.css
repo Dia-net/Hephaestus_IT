@@ -45,19 +45,20 @@
 }
 
 .slogan {
-
+    font-size: 64px;
     font-weight: 400;
     line-height: 1.2em;
     /* 115.625% */
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
 
 }
 
 .ukrainian {
-
+    color: #ECD979;
+    font-size: 64px;
     font-weight: 400;
     line-height: 74px;
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
 
 }
 
