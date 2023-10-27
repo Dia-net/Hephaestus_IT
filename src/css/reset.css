@@ -64,9 +64,9 @@ img {
   padding-right: 100px;
   }
 }
-.secion-title {
+.section-title {
   color: #FCF9F9;
-  text-align: center;
+  /* text-align: center; */
   font-size: 44px;
   font-weight: 500;
   line-height: 1.5;
