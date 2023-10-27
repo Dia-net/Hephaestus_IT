@@ -1,14 +1,18 @@
 .footer {
-    background-color: #1C2225;
+    
     position: relative;
-    width: 100%;
+   
     flex-shrink: 0;
   
 }
 
+.container {
+  
+}
+
 .container-last {
-margin: 0 auto;
-padding: 40px 0 40px 100px;
+padding: 40px 0 40px 0;
+
 }
 
 .footer-nav-container {
@@ -24,11 +28,8 @@ padding: 40px 0 40px 100px;
 .footer-nav-item {}
 
 .footer-nav {
-color: var(--white, #FCF9F9);
 
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
+    
     font-weight: 400;
     line-height: 18px;
     /* 128.571% */
@@ -39,30 +40,23 @@ color: var(--white, #FCF9F9);
     color: #ecd979;
 }
 .slogan-container {
- margin-top: 175px;
+ margin-top: 117px;
 width: 754px;
 
 }
 .slogan {
-    color: var(--white, #FCF9F9);
-    
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
+
         font-weight: 400;
-        line-height: 74px;
+        line-height: 1.2em;
         /* 115.625% */
-        letter-spacing: -1.92px;
+        letter-spacing: 0.03em;
 
 }
 .ukrainian {
-    color: var(--white, #ECD979);
-        font-family: Manrope;
-        font-size: 64px;
-        font-style: normal;
+    
         font-weight: 400;
         line-height: 74px;
-        letter-spacing: -1.92px;
+        letter-spacing: 0.03em;
 
 }
 
