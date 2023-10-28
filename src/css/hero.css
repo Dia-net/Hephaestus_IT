@@ -1,35 +1,44 @@
 .hero-container {
-  /* background-color: #1c2225; */
   width: 335px;
   height: 216px;
-  padding-top: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
+  padding-top: 60px 20px 80px;
 }
 
 .hero-title {
-  color: #fcf9f9;
   font-size: 44px;
+  font-weight: 400;
   line-height: 1.22;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
 }
 
 .hero-title-wrap {
   color: #ecd979;
   font-size: 44px;
+  font-weight: 400;
   line-height: 1.22;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
+}
+
+.hero-discription {
+  display: none;
+}
+
+.hero-discription-text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
 }
 
 .hero-button-box {
-  padding-top: 20px;
-  padding-left: 70px;
+  margin: 20px 110px 40px 70px;
 }
 
 .hero-button {
   display: inline-flex;
-  height: 49px;
   padding: 14px 36px;
   justify-content: center;
   align-items: center;
@@ -52,7 +61,6 @@
   width: 26px;
   height: 10px;
   transform: rotate(-30deg);
-  /* fill: #ecd979; */
 }
 
 .hero-button-icons {
@@ -61,11 +69,99 @@
 
 .hero-img-wrap {
   border-radius: 4px;
-  padding-top: 40px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 auto;
 }
 
-.hero-img {
+/*===== MOBILE =====*/
+
+@media screen and (max-width: 767px) {
+  .hero-picture {
+    width: 335px;
+    height: 545px;
+  }
+
+  .hero-embroidery-element-img {
+    display: none;
+  }
+}
+
+/*===== TABLET =====*/
+
+@media screen and (min-width: 768px) {
+  .hero-container-box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 112px;
+  }
+
+  .hero-title {
+    /* position: relative; */
+    max-width: 549px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 1.18;
+  }
+
+  .hero-title-wrap {
+    font-size: 54px;
+    line-height: 1.18;
+  }
+
+  .hero-discription {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    /* position: absolute; */
+    margin-bottom: auto;
+    margin-left: auto;
+  }
+
+  .hero-discription-text {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-button-box {
+    margin: 40px 240px 40px 141px;
+  }
+
+  .hero-button-link {
+    font-size: 16px;
+  }
+
+  .hero-picture-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-picture {
+    width: 413px;
+    height: 575px;
+    background-repeat: no-repeat;
+  }
+
+  .hero-embroidery-element-img {
+    width: 157px;
+    height: 191px;
+    margin-top: auto;
+    margin-left: auto;
+  }
+}
+
+/* =====DESKTOP===== */
+
+@media screen and (min-width: 1280px) {
+  .hero-embroidery-element-img {
+    width: 142px;
+    height: 157px;
+  }
 }
