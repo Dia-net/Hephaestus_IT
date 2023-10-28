@@ -4,7 +4,23 @@
 
 .about {
   padding: 80px 0;
-  position: relative;
+ 
+}
+.element{
+    background-image:
+     url(../img/about_us/embroidery-mob-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 18px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-mob-2x.png);
+         background-size: 250px;
+    }
 }
 
 .about-us-text {
@@ -26,11 +42,6 @@
   margin-top: 50px;
 }
 
-.about-background {
-  position: absolute;
-  bottom: 18px;
-  right: 0;
-}
 
 .about-img-background {
   color: #fcf9f9;
@@ -55,6 +66,22 @@
 }
 .about-us-text{
     font-size: 16px;
+}
+.element{
+    background-image:
+     url(../img/about_us/embroidery-tab-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 50px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-tab-2x.png);
+         background-size: 369px;
+    }
 }
 }
 
@@ -83,4 +110,20 @@
   .about-background{
     bottom: 70px;
   }
+  .element{
+    background-image:
+     url(../img/about_us/embroidery-dekstop-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 70px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-dekstop-2x.png);
+         background-size: 385px;
+    }
+}
 }
