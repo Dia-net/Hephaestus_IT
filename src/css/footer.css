@@ -7,15 +7,28 @@
 
 }
 
-.container {}
+.container {
+    
+}
 
 
 .container-last {
     padding: 40px 0 20px 0;
     display: flex;
     flex-direction: column;
+    position: relative;
+   
 }
-
+ .ornament-footer {
+    margin-top: 80px;
+}
+@media screen and (min-width: 767px) {
+    .container-last {
+        padding: 40px 0 40px 32px;
+        display: flex;
+        
+    }
+}
 @media screen and (min-width: 1280px) {
 .container-last {
         padding: 40px 0 40px 0;
@@ -26,6 +39,13 @@
 
 .footer-nav-container {}
 
+@media screen and (min-width: 767px) {
+    .footer-nav-container {
+        width: 478px;
+    }
+}
+
+
 .nav-list-footer {
    display: flex;
     gap: 25px 40px;
@@ -33,6 +53,7 @@
         flex-wrap: wrap;
 }
 .footer-navfirst{
+   
     gap: 25px 89px;
     
 }
@@ -42,6 +63,8 @@
         display: flex;
         gap: 25px;
         flex-wrap: nowrap;
+       
+           
     }
 }
 @media screen and (min-width: 1280px) {
@@ -81,13 +104,24 @@ font-weight: 400;
 .slogan-container {
     margin-top: 40px;
     width: 335px;
+    margin-bottom: 80px;
 
 }
-
+@media screen and (min-width: 767px) {
+.slogan-container {
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        width: 521px;
+}
+}
 @media screen and (min-width: 1280px) {
 .slogan-container {
         margin-top: 117px;
         width: 754px;
+        margin-bottom: auto;
+        
 
     }
 }
@@ -104,7 +138,9 @@ font-weight: 400;
 .slogan {
     font-size: 54px;
     line-height: 1.185em;
+   
     
+
 }
 }
 @media screen and (min-width: 1280px) {
@@ -138,36 +174,49 @@ font-weight: 400;
 }
 
 .ornament-container {
-    margin-top: 80px;
+   
 
  
 }
+@media screen and (min-width: 320px) {
 .ornament-footer {
     background-image: url(../img/ornament-mobile-1x.png);
     background-repeat: no-repeat;
+    background-position: center 100% ;
+    background-size: 336px;
+    position: absolute ;
+    
+   
 
 }
-
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .ornament-footer {
-        background-image: url(../img/ornament-desktop-2x.png);
+        background-image: url(../img/ornament-mobile-2x.png);
+        background-position: center 100%;
+      
     }
 }
+}
+
+
 @media screen and (min-width: 767px) {
     .ornament-footer {
         background-image: url(../img/ornament-tablet-1x.png);
         background-repeat: no-repeat;
+        background-size: 336px;
+        background-position: right 0% bottom 0%;
     }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .ornament-footer {
+                background-image: url(../img/ornament-tablet-2x.png);
+            }
+        }
 }
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .ornament-footer {
-        background-image: url(../img/ornament-tablet-2x.png);
-    }
- }
+
 @media screen and (min-width: 1280px) {
     .ornament-container {
         position: absolute;
@@ -178,17 +227,20 @@ font-weight: 400;
         .ornament-footer {
             background-image: url(../img/ornament-desktop-1x.png);
             background-repeat: no-repeat;
+            background-size: 336px;
+            background-position: right 0% bottom 0%;
+           
             
         }
+                @media (min-device-pixel-ratio:2),
+                (min-resolution: 192dpi),
+                (min-resolution: 2dppx) {
+                    .ornament-footer {
+                        background-image: url(../img/ornament-desktop-2x.png);
+        
+                    }
+                }
 }
 
-@media (min-device-pixel-ratio:2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .ornament-footer {
-        background-image: url(../img/ornament-desktop-2x.png);
-       
-    }
-}
 
 
