@@ -179,7 +179,7 @@
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 150px;
-    /* padding-left: 0px; */
+    justify-content: flex-end;
   }
 
   .hero-title {
@@ -189,7 +189,7 @@
 
   .hero-discription {
     right: 114px;
-    top: 80px;
+    top: 114px;
   }
 
   .hero-embroidery-element-img {
