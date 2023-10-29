@@ -1,0 +1,219 @@
+.box-header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  justify-content: space-between;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.img-logo {
+  stroke: #ecd979;
+}
+
+.nav-list {
+  display: flex;
+  display: none;
+  gap: 25px;
+  padding: 0;
+}
+.link-logo {
+  height: 100%;
+}
+.anchor-header {
+  color: #fcf9f9;
+  font-style: normal;
+  line-height: 1.28;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.anchor-header:focus,
+.anchor-header:hover,
+.anchor-header:active {
+  color: #ecd979;
+}
+
+.box-box-header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.adress-header {
+  display: none;
+}
+.tell {
+  display: flex;
+  padding: 14px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fcf9f9;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.42;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tell:focus,
+.tell:active,
+.tell:hover {
+  color: #ecd979;
+  border-color: #ecd979;
+}
+.soc-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0;
+}
+.soc-list-item {
+  width: 44px;
+  height: 44px;
+}
+.header-soc-link {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: rgba(252, 249, 249, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-soc-link:hover {
+  border: 1px solid #ecd979;
+  background-color: inherit;
+}
+.button-menu {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+.svg-button {
+  width: 36px;
+  height: 24px;
+}
+.menu-box {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #ecd979;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/header-png/elementsornament-mob-nenu1x-min.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .menu-box {
+    background-image: url(../img/header-png/elementsornament-mob-nenu2x-min.png);
+  }
+}
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.menu-box-top {
+  display: flex;
+  justify-content: space-between;
+}
+.tell-menu {
+  color: #1c2225;
+  font-size: 12px;
+  line-height: 1.16;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-mob-menu {
+  display: block;
+  top: 20px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  stroke: #1c2225;
+  margin-bottom: 187px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-box-bot {
+  text-align: right;
+}
+
+.mob-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.anchor-header-menu {
+  color: #1c2225;
+  font-family: Manrope;
+  line-height: 1.28;
+  text-transform: uppercase;
+}
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* =============================TABLET======================================== */
+@media screen and (min-width: 768px) {
+  .svg-button {
+    width: 44px;
+    height: 30px;
+  }
+  .box-box-header {
+    gap: 20px;
+  }
+  .button-mob-menu {
+    margin-bottom: 227px;
+  }
+  .mob-list-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+/* =============================DEKSTOP========================================= */
+@media screen and (min-width: 1280px) {
+  .button-menu {
+    display: none;
+  }
+
+  .nav-list {
+    display: block;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+  }
+  .adress-header {
+    display: block;
+  }
+}
