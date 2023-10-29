@@ -1,7 +1,6 @@
 .hero-container {
-  width: 335px;
-  height: 216px;
-  padding-top: 60px 20px 80px;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
 .hero-title {
@@ -46,6 +45,13 @@
   background-color: inherit;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:focus,
+.hero-button:hover,
+.hero-button:active {
+  border: 1px solid #ecd979;
 }
 
 .hero-button-link {
@@ -53,7 +59,7 @@
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
@@ -72,30 +78,24 @@
   margin: 0 auto;
 }
 
-/*===== MOBILE =====*/
-
-@media screen and (max-width: 767px) {
-  .hero-picture {
-    width: 335px;
-    height: 545px;
-  }
-
-  .hero-embroidery-element-img {
-    display: none;
-  }
+.hero-embroidery-element-img {
+  display: none;
 }
 
 /*===== TABLET =====*/
 
 @media screen and (min-width: 768px) {
+  .hero-container {
+    padding-top: 106px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+
   .hero-container-box {
-    display: flex;
-    flex-direction: row;
-    padding-top: 112px;
+    flex-direction: column;
   }
 
   .hero-title {
-    /* position: relative; */
     max-width: 549px;
   }
 
@@ -114,9 +114,19 @@
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    /* position: absolute; */
-    margin-bottom: auto;
-    margin-left: auto;
+    position: absolute;
+    right: 32px;
+    top: 80px;
+  }
+
+  .hero-discription-icons {
+    fill: #ecd979;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-discription-icons:focus,
+  .hero-discription-icons:hover {
+    color: #fcf9f9;
   }
 
   .hero-discription-text {
@@ -150,18 +160,41 @@
   }
 
   .hero-embroidery-element-img {
-    width: 157px;
-    height: 191px;
-    margin-top: auto;
-    margin-left: auto;
+    display: flex;
+    width: 139px;
+    position: absolute;
+    right: 32px;
+    bottom: 100px;
   }
 }
 
 /* =====DESKTOP===== */
 
 @media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 0px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 150px;
+    /* padding-left: 0px; */
+  }
+
+  .hero-title {
+    padding-top: 94px;
+    padding-left: 40px;
+  }
+
+  .hero-discription {
+    right: 114px;
+    top: 80px;
+  }
+
   .hero-embroidery-element-img {
-    width: 142px;
-    height: 157px;
+    width: 139px;
+    right: 96px;
+    bottom: 150px;
   }
 }
