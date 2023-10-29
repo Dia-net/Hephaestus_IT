@@ -1,0 +1,224 @@
+
+.your-order-box {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+   .your-order-box   {
+        flex-direction: column;
+        align-items: start;
+        padding: 100px 0;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    .your-order-box {
+        flex-direction: row-reverse;
+        align-items: start;
+        gap: 50px;
+        padding: 150px 100px;
+    }
+}
+
+.title-form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-order-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.your-order-ornament {
+display: none;
+}
+
+/* @media screen and (min-width: 768px) {
+    .your-order-ornament {
+        background-image: 
+        url(../img/your-order-img/yo-ornament-tab-png-1x.png);
+        background-repeat: no-repeat;
+        background-position: left 0% bottom 0%;
+    }
+} */
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .your-order-ornament {
+        url(../img/your-order-img/yo-ornament-tab-png-2x.png); 
+    }
+  }
+     */
+
+
+/* @media screen and (min-width: 1280px) {
+    .your-order-ornament {
+        background-image: 
+        url(../img/your-order-img/yo-ornament-desc-png-1x.png);
+        background-repeat: no-repeat;
+        background-position: left 0% bottom 0%;
+    }
+} */
+
+/* @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .your-order-ornament {
+        url(../img/your-order-img/yo-ornament-desc-png-2x.png); 
+    }
+  }
+     */
+
+.your-order-image {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-image {
+        width: 638px;
+        height: 521px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .your-order-image {
+        width: 524px;
+        height: 521px;
+        align-items: start;
+    }
+}
+
+.your-order-title {
+    color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.3;
+letter-spacing: -0.96px;
+margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-title {
+        width: 542px;
+        font-size: 44px;
+        letter-spacing: -1.32px;
+    }
+    
+}
+
+.your-order-title-part {
+    color: var(--white, #ECD979);
+font-family: Manrope;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.3;
+letter-spacing: 0.96px;
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-title-part {
+        font-size: 44px;
+        letter-spacing: -1.32px;
+    }
+    
+}
+
+.your-order-input {
+width: 100%;
+height: 47px;
+margin-bottom: 20px;
+color: rgba(252, 249, 249, 0.50);
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.32px;
+border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background-color: #1C2225;
+padding: 14px 16px;
+}
+
+.your-order-input:active {
+    color: var(--white, #FCF9F9);
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-input {
+        width: 508px;
+        height: 50px;
+    }
+}
+
+.your-order-textarea {
+    width: 100%;
+    height: 196px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: #1C2225;
+    padding: 14px 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-textarea {
+        width: 508px;
+        height: 196px;
+    }
+}
+
+.your-order-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #1C2225;
+    width: 145px;
+    height: 49px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.56px;
+text-transform: uppercase;
+
+}
+
+@media screen and (min-width: 768px) {
+    .your-order-form-btn {
+        position: none;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+}
+
+.your-order-form-btn:hover,
+.your-order-form-btn:focus {
+    border: 1px solid var(--yellow, #ECD979);
+}
+
+
+
+
+
