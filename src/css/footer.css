@@ -30,6 +30,11 @@
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
 
 
 .nav-list-footer {
@@ -167,6 +172,12 @@ margin-top: 40px;
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .slogan-container {
+        margin-right: 90px;
+    }
+}
+
 .slogan {
     font-size: 44px;
     font-weight: 400;
@@ -269,5 +280,21 @@ margin-top: 40px;
                 }
 }
 
+@media screen and (min-width: 1440px) {
+    .ornament-footer {
+        background-image: url(../img/big-desktop-1x.png);
+        background-repeat: no-repeat;
+        background-size: 496px;
+        background-position: right 0% bottom 0%;
+    }  
+
+         @media (min-device-pixel-ratio:2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+            .ornament-footer {
+                background-image: url(../img/big-desktop-2x.png);
+            }
+         }
+}
 
 
