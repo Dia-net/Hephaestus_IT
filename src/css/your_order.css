@@ -1,7 +1,6 @@
 .your-order-box {
-  margin: 0 auto;
+    margin: 0 auto;
   display: flex;
-  align-items: center;
 }
 
 @media screen and (min-width: 375px) {
