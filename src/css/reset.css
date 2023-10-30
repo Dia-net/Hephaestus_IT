@@ -64,9 +64,17 @@ img {
   padding-right: 100px;
   }
 }
-.secion-title {
-  color: #FCF9F9;
-  text-align: center;
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+      padding-right: 100px;
+  }
+}
+.section-title {
+ color: #FCF9F9;
   font-size: 44px;
   font-weight: 500;
   line-height: 1.5;
