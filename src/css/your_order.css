@@ -1,29 +1,31 @@
 
 .your-order-box {
-    padding: 80px 0;
+    
     display: flex;
     align-items: center;
 }
 
-@media screen and (min-width: 768px) {
-   .your-order-box   {
-        flex-direction: column;
-        align-items: start;
-        padding: 100px 0;
-    }
-    
-}
-
-
-
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 375px) {
     .your-order-box {
-        flex-direction: row-reverse;
-        align-items: start;
-        gap: 50px;
-        padding: 150px 100px;
+      max-width: 375px;
+      padding: 80px 20px;
     }
-}
+  }
+  @media screen and (min-width: 768px) {
+    .your-order-box {
+      max-width: 768px;
+      padding: 100px 32px;
+    
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .your-order-box {
+      max-width: 1280px;
+    padding: 150px 100px 64px;
+   
+    }
+  }
+
 
 .title-form-box {
     display: flex;
@@ -36,46 +38,49 @@
     
 }
 
-.your-order-ornament {
+.ornament {
 display: none;
+/* z-index: 1; */
 }
 
 /* @media screen and (min-width: 768px) {
-    .your-order-ornament {
+    .ornament {
         background-image: 
         url(../img/your-order-img/yo-ornament-tab-png-1x.png);
         background-repeat: no-repeat;
-        background-position: left 0% bottom 0%;
+        /* background-position: left 0% bottom 0%; 
     }
-} */
+ } 
 
-/* @media (min-device-pixel-ratio: 2),
+ @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .your-order-ornament {
+    .ornament {
+        background-image:
         url(../img/your-order-img/yo-ornament-tab-png-2x.png); 
     }
   }
-     */
+     
 
 
-/* @media screen and (min-width: 1280px) {
-    .your-order-ornament {
+@media screen and (min-width: 1280px) {
+    .ornament {
         background-image: 
         url(../img/your-order-img/yo-ornament-desc-png-1x.png);
         background-repeat: no-repeat;
-        background-position: left 0% bottom 0%;
+        /* background-position: left 0% bottom 0%; 
     }
-} */
+} 
 
-/* @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-    .your-order-ornament {
+    .ornament {
+        background-image:
         url(../img/your-order-img/yo-ornament-desc-png-2x.png); 
     }
-  }
-     */
+  }  */
+    
 
 .your-order-image {
     display: none;
@@ -86,6 +91,7 @@ display: none;
         width: 638px;
         height: 521px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: flex-end;
         align-items: end;
     }
@@ -100,13 +106,10 @@ display: none;
 }
 
 .your-order-title {
-    color: var(--white, #FCF9F9);
-font-family: Manrope;
 font-size: 32px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.3;
-letter-spacing: -0.96px;
+letter-spacing: 0.03em;
 margin-bottom: 40px;
 }
 
@@ -114,40 +117,36 @@ margin-bottom: 40px;
     .your-order-title {
         width: 542px;
         font-size: 44px;
-        letter-spacing: -1.32px;
+        letter-spacing: 0.03em;
     }
     
 }
 
 .your-order-title-part {
     color: var(--white, #ECD979);
-font-family: Manrope;
 font-size: 32px;
-font-style: normal;
 font-weight: 500;
 line-height: 1.3;
-letter-spacing: 0.96px;
+letter-spacing: 0.03em;
 }
 
 @media screen and (min-width: 768px) {
     .your-order-title-part {
         font-size: 44px;
-        letter-spacing: -1.32px;
+        letter-spacing: 0.03em;
     }
     
 }
 
 .your-order-input {
-width: 100%;
 height: 47px;
 margin-bottom: 20px;
 color: rgba(252, 249, 249, 0.50);
-font-family: Manrope;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-letter-spacing: -0.32px;
+letter-spacing: 0.02em;
 border-radius: 15px;
 border: 1px solid rgba(252, 249, 249, 0.10);
 background-color: #1C2225;
@@ -174,6 +173,7 @@ padding: 14px 16px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: #1C2225;
     padding: 14px 16px;
+    resize: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -195,22 +195,24 @@ padding: 14px 16px;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     color: var(--white, #FCF9F9);
-font-family: Manrope;
 font-size: 14px;
-font-style: normal;
 font-weight: 600;
 line-height: normal;
-letter-spacing: -0.56px;
+letter-spacing: 0.04em;
 text-transform: uppercase;
 
 }
 
 @media screen and (min-width: 768px) {
     .your-order-form-btn {
-        position: none;
-        margin: 0;
         margin-bottom: 100px;
     }
+}
+
+@media screen and (min-width: 1280px) {
+    .your-order-form-btn {
+        margin: 0;
+       }
 }
 
 .your-order-form-btn:hover,
