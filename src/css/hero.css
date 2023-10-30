@@ -37,15 +37,11 @@
 }
 
 .hero-button {
-  display: inline-flex;
   padding: 14px 36px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
   background-color: inherit;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
@@ -63,10 +59,10 @@
   text-transform: uppercase;
 }
 
-.hero-button-icons-wrap {
+/* .hero-button-icons-wrap {
   width: 26px;
   height: 10px;
-}
+} */
 
 .hero-button-icons {
   fill: #ecd979;
@@ -79,6 +75,9 @@
 
 .hero-embroidery-element-img {
   display: none;
+}
+.hero-button-icons {
+  margin-left: 10px;
 }
 
 /*===== TABLET =====*/
@@ -166,10 +165,12 @@
     bottom: 100px;
   }
 }
-
 /* =====DESKTOP===== */
 
 @media screen and (min-width: 1280px) {
+  .hero-container-box {
+    margin-left: 40px;
+  }
   .container {
     padding-left: 0px;
   }
@@ -183,11 +184,11 @@
 
   .hero-title {
     padding-top: 94px;
-    padding-left: 40px;
+    max-width: 518px;
   }
 
   .hero-discription {
-    right: 114px;
+    right: 100px;
     top: 114px;
   }
 
@@ -195,5 +196,8 @@
     width: 139px;
     right: 96px;
     bottom: 150px;
+  }
+  .hero-button-link {
+    display: flex;
   }
 }
