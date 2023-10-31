@@ -98,7 +98,6 @@
   border: none;
   background-color: inherit;
   padding: 0;
-  margin-top: 7px;
   cursor: pointer;
 }
 .svg-button {
@@ -106,10 +105,9 @@
   height: 24px;
 }
 .menu-box {
-  width: 100vw;
+  width:274px;
   height: 100vh;
   top: 0;
-  left: 0;
   position: fixed;
   background-color: #ecd979;
   padding: 20px;
@@ -122,6 +120,8 @@
   opacity: 0;
   visibility: hidden;
   z-index: 1;
+  left: 50%;
+  transform: translate(-50%);
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -170,7 +170,9 @@
   margin-bottom: 187px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.svg-x-tab{
+  display: none;
+}
 .menu-box-bot {
   text-align: right;
 }
@@ -184,6 +186,7 @@
   line-height: 1.28;
   text-transform: uppercase;
 }
+
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* =============================TABLET======================================== */
 @media screen and (min-width: 768px) {
@@ -200,6 +203,16 @@
   .mob-list-item:not(:last-child) {
     margin-bottom: 25px;
   }
+  .svg-x-mob{
+    display: none;
+  }
+  .svg-x-tab{
+    display: block;
+  }
+  .menu-box{
+    width: 380px;
+
+
 }
 
 /* =============================DEKSTOP========================================= */
@@ -217,4 +230,4 @@
   .adress-header {
     display: block;
   }
-}
+}}
