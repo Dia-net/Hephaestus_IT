@@ -73,13 +73,6 @@ img {
       padding-right: 100px;
   }
 }
-.section-title {
- color: #FCF9F9;
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-}
 
 .visually-hidden {
   position: absolute;
