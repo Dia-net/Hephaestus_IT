@@ -20,7 +20,7 @@
 @media screen and (min-width: 1280px) {
   .your-order-box {
     max-width: 1280px;
-    padding: 150px 100px 64px;
+    padding: 150px 100px 150px 64px;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: flex-start;
@@ -45,9 +45,11 @@
 
 @media screen and (min-width: 768px) {
   .ornament {
+    display: flex;
     background-image: url(../img/your-order-img/yo-ornament-tab-png-1x.png);
     background-repeat: no-repeat;
     background-position: left 0% bottom 0%;
+    background-size: 323px;
   }
 }
 
@@ -64,6 +66,7 @@
     background-image: url(../img/your-order-img/yo-ornament-desc-png-1x.png);
     background-repeat: no-repeat;
     background-position: left 0% bottom 0%;
+    background-size: 289px;
   }
 }
 
@@ -72,6 +75,16 @@
   (min-resolution: 2dppx) {
   .ornament {
     background-image: url(../img/your-order-img/yo-ornament-desc-png-2x.png);
+  }
+}
+
+.image-container {
+  margin-left: 66px;
+}
+
+@media screen and (min-width: 1280px) {
+  .image-container {
+    margin-left: 0;
   }
 }
 
