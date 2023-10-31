@@ -40,7 +40,7 @@
 }
 
 .ornament {
-  display: none;
+  background-size: 0%;
 }
 
 @media screen and (min-width: 768px) {
@@ -65,7 +65,7 @@
   .ornament {
     background-image: url(../img/your-order-img/yo-ornament-desc-png-1x.png);
     background-repeat: no-repeat;
-    background-position: left 0% bottom 0%;
+    background-position: left 0% bottom 150px;
     background-size: 289px;
   }
 }
