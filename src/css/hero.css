@@ -34,6 +34,7 @@
 
 .hero-button-box {
   margin: 20px 110px 40px 70px;
+  width: 154px;
 }
 
 .hero-button {
@@ -95,9 +96,6 @@
 
   .hero-title {
     max-width: 549px;
-  }
-
-  .hero-title {
     font-size: 54px;
     line-height: 1.18;
   }
@@ -140,6 +138,7 @@
 
   .hero-button-box {
     margin: 40px 240px 40px 141px;
+    width: 168px;
   }
 
   .hero-button-link {
@@ -159,20 +158,18 @@
 
   .hero-embroidery-element-img {
     display: flex;
-    width: 139px;
+    width: 157px;
     position: absolute;
     right: 32px;
     bottom: 100px;
   }
 }
+
 /* =====DESKTOP===== */
 
 @media screen and (min-width: 1280px) {
   .hero-container-box {
     margin-left: 40px;
-  }
-  .container {
-    padding-left: 0px;
   }
 
   .hero-container {
@@ -192,12 +189,67 @@
     top: 114px;
   }
 
+  .hero-picture {
+    width: 392px;
+    height: 545px;
+    background-repeat: no-repeat;
+  }
+
   .hero-embroidery-element-img {
-    width: 139px;
+    width: 142px;
     right: 96px;
     bottom: 150px;
   }
   .hero-button-link {
     display: flex;
+  }
+}
+
+/* =====DESKTOP1440===== */
+
+@media screen and (min-width: 1440px) {
+  .hero-container-box {
+    /* margin-left: 40px; */
+  }
+  .container {
+    /* padding-left: 0px; */
+  }
+
+  .hero-container {
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    /* padding-bottom: 150px; */
+    /* justify-content: flex-end; */
+  }
+
+  .hero-title {
+    padding-top: 66px;
+    max-width: 632px;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-title-wrap {
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-discription {
+    top: 166px;
+  }
+
+  .hero-button-box {
+    margin-right: 323px;
+  }
+
+  .hero-embroidery-element-img {
+    width: 139px;
+    right: 100px;
+    bottom: 149px;
+  }
+  .hero-button-link {
+    /* display: flex; */
   }
 }
