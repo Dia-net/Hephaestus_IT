@@ -87,7 +87,7 @@
 
 @media screen and (min-width: 1280px) {
   .about {
-    padding: 150px 0;
+padding: 0 0 150px 0;
     display: flex;
     gap: 50px;
   }
