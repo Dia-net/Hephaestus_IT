@@ -1,4 +1,4 @@
-.footer {
+ .footer {
     position: relative;
     flex-shrink: 0;
     border-top: 1px solid rgba(252, 249, 249, 0.10);
@@ -253,8 +253,10 @@ margin-top: 40px;
         background-image: url(../img/ornament-mobile-2x.png);
         
 
+
     }
 }
+
 
 
 
