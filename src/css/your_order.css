@@ -72,7 +72,7 @@
   .ornament {
     background-image: url(../img/your-order-img/yo-ornament-desc-png-1x.png);
     background-repeat: no-repeat;
-    background-position: left 0% bottom 150px;
+    background-position: left 0% bottom 60px;
     background-size: 289px;
   }
 }
@@ -82,6 +82,23 @@
   (min-resolution: 2dppx) {
   .ornament {
     background-image: url(../img/your-order-img/yo-ornament-desc-png-2x.png);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ornament {
+    background-image: url(../img/your-order-img/yo-ornament-desc1440-png-1x.png);
+    background-repeat: no-repeat;
+    background-position: left 0% bottom 150px;
+    background-size: 289px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .ornament {
+    background-image: url(../img/your-order-img/yo-ornament-desc1440-png-2x.png);
   }
 }
 
