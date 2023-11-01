@@ -30,9 +30,47 @@ img {
     padding-right: 20px;
 }
 .our{
-    background-color: #1C2225;
-    text-align: center;
-    padding: 150px 0;
+  background-color: #1C2225;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.collection{
+  display: block;
+  background-image: url(../img/our-collection-png/ornament-mobile-1x.png);
+  background-repeat: no-repeat;
+  background-position: left 330px;
+  background-size: 135px;
+  padding-top: 18px;
+  padding-bottom: 80px;
+    
+}
+@media screen and (min-width: 768px) {
+  .collection{
+    background-image: url(../img/our-collection-png/ornament-tablet-1x.png);
+    background-size: 135px 240px;
+    background-position-y: 325px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+@media screen and (min-width: 1110px) {
+  .collection{
+    background-image: url(../img/our-collection-png/ornament-desktop-1x.png);
+    background-position-y: 350px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+}
+}
+
+.our-title{
+  color: var(--white, #FCF9F9);
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 64px;
+  letter-spacing: -1.32px;
 }
 
 .our-list{
@@ -54,12 +92,13 @@ img {
 
 .our-img{
    border-radius: 4px;
-   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-}
+   margin-bottom: 18px;
+  }
+
 
 @media screen and (min-width: 768px) {
 .our-list-item {
-   width: calc((100% - 24px * 1)/ 2);
+  width: calc((100% - 20px) / 2);
  }
 }
 
@@ -67,10 +106,6 @@ img {
 .our-list-item {
   width: calc((100% - 40px)/ 3);
  }
-}
-
-.point{
-  width: 345px;
 }
 
 .our-subtitle{
@@ -82,6 +117,9 @@ img {
     line-height: 18px; /* 100% */
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .our-name{
@@ -97,4 +135,3 @@ img {
     display: none;
   }
 }
-
