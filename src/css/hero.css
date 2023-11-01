@@ -60,11 +60,6 @@
   text-transform: uppercase;
 }
 
-/* .hero-button-icons-wrap {
-  width: 26px;
-  height: 10px;
-} */
-
 .hero-button-icons {
   fill: #ecd979;
 }
@@ -208,20 +203,6 @@
 /* =====DESKTOP1440===== */
 
 @media screen and (min-width: 1440px) {
-  .hero-container-box {
-    /* margin-left: 40px; */
-  }
-  .container {
-    /* padding-left: 0px; */
-  }
-
-  .hero-container {
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-    /* padding-bottom: 150px; */
-    /* justify-content: flex-end; */
-  }
-
   .hero-title {
     padding-top: 66px;
     max-width: 632px;
@@ -248,8 +229,5 @@
     width: 139px;
     right: 100px;
     bottom: 149px;
-  }
-  .hero-button-link {
-    /* display: flex; */
   }
 }
