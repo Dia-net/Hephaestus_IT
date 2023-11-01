@@ -116,6 +116,7 @@
 }
 }
 
+
 .our-name{
   padding: 18px 0;
   border: 1px;
@@ -123,13 +124,13 @@
   text-align: left;
 }
 
+
 .our-subtitle{
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1px;
+  line-height: 1em;
   letter-spacing: 0.7px;
   text-transform: uppercase;
 }
@@ -139,9 +140,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 1px;
+    line-height: 1em;
     letter-spacing: 0.9px;
     text-transform: uppercase;
     text-overflow: ellipsis;
@@ -153,7 +153,7 @@
   .our-subtitle{
     font-size: 18px;
     font-weight: 500;
-    line-height: 1px;
+    line-height: 1em; 
     letter-spacing: 0.9px;
     text-transform: uppercase;
     text-overflow: ellipsis;
@@ -167,7 +167,7 @@
   color: rgba(252, 249, 249, 0.40);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1px;
+  line-height: 1em;
   letter-spacing: 0.7px;
 }
 
@@ -176,7 +176,7 @@
     color: rgba(252, 249, 249, 0.40);
     font-size: 18px;
     font-weight: 400;
-    line-height: 1px;
+    line-height: 1em;
     letter-spacing: 0.9px;
   }
 }
@@ -184,11 +184,9 @@
 @media screen and (min-width: 1280px){
   .our-list-text{
     color: rgba(252, 249, 249, 0.40);
-    font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 18px; /* 100% */
+    line-height: 1em;
     letter-spacing: 0.9px;
   }
 }
