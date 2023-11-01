@@ -9,6 +9,7 @@
         <input
           type="text"
           name="user-name"
+          maxlength="10"
           pattern="[A-Za-z0-9]{6,}"
           title="Ім'я не может бути меншим за 6 латинських символів."
           class="your-order-input"
@@ -17,8 +18,9 @@
         <input
           type="email"
           name="user-email"
+          minlength="6"
           pattern="[A-Za-z0-9]{6,}"
-          title = "І-мейл не может бути меншим за 6 латинських символів."
+          title="І-мейл не может бути меншим за 6 латинських символів."
           class="your-order-input"
           placeholder="Enter your email"
         />
@@ -27,13 +29,13 @@
           class="your-order-textarea"
           placeholder="Comments"
         ></textarea>
+        <button type="submit" class="your-order-form-btn">
+          Send
+          <svg class="your-order-icon" width="26" height="10">
+            <use href="../img/icons.svg#icon-send-order"></use>
+          </svg>
+        </button>
       </form>
-      <button type="submit" class="your-order-form-btn">
-        Send
-        <svg class="your-order-icon" width="26" height="10">
-          <use href="../img/icons.svg#icon-send-order"></use>
-        </svg>
-      </button>
     </div>
     <picture class="your-order-image image-container">
       <source
