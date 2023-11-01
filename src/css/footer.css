@@ -2,10 +2,14 @@
   position: relative;
   flex-shrink: 0;
   border-top: 1px solid rgba(252, 249, 249, 0.1);
+  padding-top: 40px;
+  padding-bottom: 20px;
+  
 }
 
 .container-last {
-  padding: 40px 0 20px 0;
+  padding-left:0 ;
+  padding-right: 0;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -86,7 +90,7 @@
 .ornament-footer {
   background-image: url(../img/ornament-mobile-1x.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom center;
   background-size: 375px;
 }
 @media (min-device-pixel-ratio: 2),
@@ -98,13 +102,21 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .container-last {
-    padding: 40px 0 40px 32px;
+    padding-right:  0 ;
+    padding-left: 32px;
     display: flex;
   }
 
   .footer-nav-container {
     width: 478px;
+    margin-top: 0;
+   
+   
   }
 
   .nav-list-footer {
@@ -132,9 +144,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 80px;
     width: 521px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    
   }
   .slogan {
     font-size: 54px;
@@ -157,8 +169,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .container-last {
-    padding: 40px 0 40px 0;
+    padding-left: 0;
+    padding-right: 0;
     display: block;
   }
   .nav-list-footer {
