@@ -47,16 +47,17 @@ img {
 }
 @media screen and (min-width: 768px) {
   .collection{
-    background-image: url(../img/our-collection-png/ornament-tablet-1x.png);
-    background-size: 135px 240px;
-    background-position-y: 325px;
+    background-image: url(../img/our-collection-png/tablet2x.png);
+    background-size: 100px 240px;
+    background-position-y: 240px;
     padding-top: 50px;
     padding-bottom: 100px;
 }
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 1280px) {
   .collection{
-    background-image: url(../img/our-collection-png/ornament-desktop-1x.png);
-    background-position-y: 350px;
+    background-image: url(../img/our-collection-png/desktop2x.png);
+    background-size: 100px 240px;
+    background-position-y: 266px;
     padding-top: 70px;
     padding-bottom: 150px;
   }
@@ -74,12 +75,16 @@ img {
 }
 
 .our-list{
-    list-style: none;
+    /* list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 0;
+    padding-left: 0; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 @media screen and (min-width: 768px) {
