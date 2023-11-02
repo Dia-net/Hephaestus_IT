@@ -64,13 +64,14 @@ img {
   padding-right: 100px;
   }
 }
-.secion-title {
-  color: #FCF9F9;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
+
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 100px;
+      padding-right: 100px;
+  }
 }
 
 .visually-hidden {
