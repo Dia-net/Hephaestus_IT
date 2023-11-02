@@ -1,14 +1,14 @@
 
 
 
-    .model-one{
+    /* .model-one{
     min-width: 375px;
     min-height: 550px;
     max-width: 1440px; 
     top:0;
     padding: 0;
     flex-shrink: 0;
-    background-image:url(../img/model-jpg/Imagemob-1x-min.jpg);
+    background-image:url(../img/model/model-jpg/Imagemob-1x-min.jpg);
   margin: auto;
 background-repeat: no-repeat; 
 background-size:cover;
@@ -19,7 +19,7 @@ background-position:center;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .model-one{
-        background-image: url(../img/model-jpg/Imagemob-2x-min.jpg);
+        background-image: url(../img/model/model-jpg/Imagemob-2x-min.jpg);
     }
 }
     }
@@ -28,24 +28,24 @@ background-position:center;
     .model-one{ 
 max-width: 768px;
 height: 776px;
-        background-image: url(../img/model-jpg/Imagetab-1x-min.jpg);}
+        background-image: url(../img/model/model-jpg/Imagetab-1x-min.jpg);}
         @media (min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .model-one{
         max-width: 1280px;
 height: 776px;
-        background-image: url(../img/model-jpg/Imagetab-2x-min.jpg);
+        background-image: url(../img/model/model-jpg/Imagetab-2x-min.jpg);
     }
 }
 }
 @media screen and (min-width: 1280px){
-    .model-one{  background-image:url(../img/model-jpg/Image1280-1x-min.jpg);}
+    .model-one{  background-image:url(../img/model/model-jpg/Image1280-1x-min.jpg);}
     @media (min-device-pixel-ratio: 2), 
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
     .model-one{
-        background-image: url(../img/model-jpg/Image1280-2x-min.jpg);
+        background-image: url(../img/model/model-jpg/Image1280-2x-min.jpg);
     }
 }
 }
@@ -55,15 +55,15 @@ height: 776px;
     .model-one{ 
         max-width: 1440px;
 height: 776px;
- background-image: url(../img/model-jpg/Image1420-1x-min.jpg);}
+ background-image: url(../img/model/model-jpg/Image1420-1x-min.jpg);}
  @media (min-device-pixel-ratio: 2), 
  (min-resolution: 192dpi),
  (min-resolution: 2dppx){
     .model-one{
-        background-image: url(../img/model-jpg/Image1420-2x-min.jpg);
+        background-image: url(../img/model/model-jpg/Image1420-2x-min.jpg);
     }
  }
-}
+} */
 
 
 
