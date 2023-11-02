@@ -1,5 +1,6 @@
-<section id="ORDER" class="your-order">
-  <div class="your-order-box ornament">
+
+<section id="CUSTOMER ORDER" class="your-order ornament">
+  <div class="your-order-box">
     <div class="title-form-box">
       <h2 class="your-order-title">
         <span class="your-order-title-part">Your order</span> is our priority:
@@ -9,12 +10,18 @@
         <input
           type="text"
           name="user-name"
+          maxlength="10"
+          pattern="[A-Za-z0-9]{6,}"
+          title="Ім'я не может бути меншим за 6 латинських символів."
           class="your-order-input"
           placeholder="Enter your full name"
         />
         <input
           type="email"
           name="user-email"
+          minlength="6"
+          pattern="[A-Za-z0-9]{6,}"
+          title="І-мейл не может бути меншим за 6 латинських символів."
           class="your-order-input"
           placeholder="Enter your email"
         />
@@ -23,13 +30,13 @@
           class="your-order-textarea"
           placeholder="Comments"
         ></textarea>
+        <button type="submit" class="your-order-form-btn">
+          Send
+          <svg class="your-order-icon" width="26" height="10">
+            <use href="../img/icons.svg#icon-send-order"></use>
+          </svg>
+        </button>
       </form>
-      <button type="submit" class="your-order-form-btn">
-        Send
-        <svg class="your-order-icon" width="24" height="16">
-          <use href="./img/icons.svg#icon--1"></use>
-        </svg>
-      </button>
     </div>
     <picture class="your-order-image image-container">
       <source
