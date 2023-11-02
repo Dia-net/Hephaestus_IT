@@ -33,16 +33,16 @@
   .collection{
     background-image: url(../img/our-collection-png/desktop1x.png);
     background-size: 135px 240px;
-    background-position-y: 275px;
+    background-position-y: 350px;
     padding-top: 70px;
     padding-bottom: 150px;
 }
 }
 @media screen and (min-width: 1440px) {
   .collection{
-    background-image: url(../img/our-collection-png/desktop1440-1x.png);
+    background-image: url(../img/our-collection-png/desktop1440-2x.png);
     background-size: 135px 240px;
-    background-position-y: 275px;
+    background-position-y: 350px;
     padding-top: 70px;
     padding-bottom: 150px;
 }
@@ -55,6 +55,27 @@
     padding-left: 20px;
     padding-right: 20px;
 } 
+@media screen and (min-width: 768px){
+.container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+}
+@media screen and (min-width: 1280px){
+  .container {
+      max-width: 1280px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+  }
+  @media screen and (min-width: 1440px){
+    .container {
+        max-width: 1440px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    }
 
 .our-title{
   font-size: 32px;
@@ -159,6 +180,15 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .our-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em; 
+    letter-spacing: 0.9px;
   }
 }
 
