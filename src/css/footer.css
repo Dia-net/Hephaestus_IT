@@ -219,7 +219,7 @@
   .ornament-footer {
     background-image: url(../img/ornament-desktop-1x.png);
     background-repeat: no-repeat;
-    background-size: 336px;
+    background-size: auto 100%;
     background-position: right 0% bottom 0%;
   }
   @media (min-device-pixel-ratio: 2),
@@ -240,7 +240,7 @@
   .ornament-footer {
     background-image: url(../img/big-desktop-1x.png);
     background-repeat: no-repeat;
-    background-size: 496px;
+    background-size: auto 100%;
     background-position: right 0% bottom 0%;
   }
 
