@@ -19,7 +19,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/Hephaestus_IT/assets/index-1a946825.css">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="/Hephaestus_IT/assets/index-b19c757b.css">
   </head>
   <body>
     <header class="header">
@@ -241,7 +242,6 @@
               alt="black1"
               width="335"
               height="400"
-              class="our-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">AUGUST Poltava women's blouseRING</h3>
@@ -255,7 +255,6 @@
               alt="beige2"
               width="335"
               height="400"
-              class="our-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">Women's blouse Gorgany</h3>
@@ -265,11 +264,10 @@
           <li class="our-list-item">
             <img class="our-img"
             srcset="/Hephaestus_IT/assets/white3-1x-c7d8e040.jpg 1x, /Hephaestus_IT/assets/white3-2x-6bf0efe1.jpg 2x"
-              src="../img/white3-1x.jpg"
+              src="../img/our_collections/white3-1x.jpg"
               alt="white3"
               width="335"
               height="400"
-              class="our-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">Women's blouse Crimea</h3>
@@ -283,7 +281,6 @@
               alt="beige4"
               width="335"
               height="400"
-              class="our-list-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">Men's shirt Verkhovina</h3>
@@ -293,11 +290,10 @@
           <li class="our-list-item">
             <img class="our-img"
             srcset="/Hephaestus_IT/assets/black5-1x-38244d52.jpg 1x, /Hephaestus_IT/assets/black5-2x-6aa295fb.jpg 2x"
-              src="../img/black5-1x.jpg"
+              src="../img/our_collections/black5-1x.jpg"
               alt="beige5"
               width="335"
               height="400"
-              class="our-list-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">Mountain men's shirt</h3>
@@ -311,7 +307,6 @@
               alt="white6"
               width="335"
               height="400"
-              class="our-list-img"
             />
             <div class="our-name">
               <h3 class="our-subtitle">Men's shirt Yasen</h3>
@@ -319,11 +314,12 @@
             </div>
           </li>
         </ul>
+    </div>
 </section>
     <section class="model">
-    <div class="model-one"></div>
+  <div class="model-one"></div>
 </section>
-    
+
 <section id="ORDER" class="your-order ornament">
   <div class="your-order-box">
     <div class="title-form-box">
@@ -380,71 +376,90 @@
 </section>
 
     <section class="testimonials" id="TEstimonials">
-    <div class="container">
-        <h2 class="testimonials-title">
-            Testimonials
-        </h2>
-        <ul class="testimonials-list">
+  <div class="container">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <ul class="testimonials-list">
+      <li class="first-testimonial">
+        <picture class="testimonial-picture">
+          <source
+            srcset="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png 1x, /Hephaestus_IT/assets/maria-tkachuk-2x-376b0790.png 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png"
+            alt="Maria Tkachuk photo"
+            width="64"
+            height="64"
+            class="photo-testimonials"
+          />
+        </picture>
+        <div class="testimonials-list-item">
+          <h3 class="div-title">Maria Tkachuk</h3>
+          <p class="div-text">
+            I was pleasantly surprised by the variety of embroidery offered by
+            Vyshyvanka Vibes. They have models for every taste - from classic to
+            modern. I bought an embroidered dress to celebrate a special
+            occasion and received impeccable service and refinement in every
+            detail.
+          </p>
+        </div>
+      </li>
 
+      <li class="second-testimonial">
+        <picture class="testimonial-picture">
+          <source
+            srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAALlUExURUdwTPDr15SVlf3+/VhcYoWFhdfX0ltbWBQTHxMWJaimmqGhocfGvp2dn5mZm/7//wwSGg4VHfv8+6Cgo5aYm5aXmdnczyAmK0hMUMHAufv8/QwQFBEVHB0fJ5iWk+Le1MTAs+/t3T5BR+vo2f7+/v7+/g4UG/v9/ZSdpFthY0BBRFJaXIKTp9va0M7FsVFVWPr38OHf0Ghybz1BSPf3+/39+v7+/vz8/Pz8/Wl0dFxeZPr8/F5gY/z++/f38GJgYoyLf8O6qOPex87U3Pn57HN4c3+FfP7//w4SGAwPFREXIP3//////g8VHBIZIhkfKSEnMv///BUcJqmqrCUrOBwiLqOkpbKztf7++aeoqv799aGho7a1taytrS0zQfz+/aWmqCkvPp2foK+wr7GxsVtjZFRgYP357qKhoOXh0rq5uvv89b22ppqcm8/Js93c1KioqL7Av8LCwevl05aXmLy8vNTMuLi3tlBQVGZjZeHf2vn6+a2usci/q/j16/r58cfEusTExYN/eEJHUmdwbtLT1NnSv+rv9M3IvmJdX+PcyXFvbOfr7svEsOvn22Rpa+7r5eTk4Hx8fklFRvTy5tfe5TQyNdTQwzM4R2lvczk+SU1aXI+Pj0FDSuDk6c+8sM7OxKSOiI2Ng32EgfDr4PPy8Obl2nyMnkQ/Qvjp2IWHgJOUh5qboHh0dOjm5NfXzl9qZt/YwoSAgNvk8Nnb3F9ZWMG8qt3ZzKOilFZLSra0pauqnr+lmIt4crGxopmZkPDx7I+TlfHz98fJxIqGg9fY2D05Pfzz5Pby4MHAtHplYYaHjMjLylZWW83NzndubMjP1nB5dNfWyJOBe7rCzraekcivonZ3fH+CiYiLj9PRy8G7r3BlY5qJgqGfjmxbWdPBtJair4a1jqObl4yXpbKlmH19coShhygoK5qsusy2qqexvevz/LCUiK67yBobH5GdqYNwapqrmL/O4nF9i5a+mqq/tDv9VLQAAAB0dFJOUwD+fe/+JiMBAgb94ZWj2uB48ILwZZQTF1FmkZ7gJ1BdRILvnNCwynGyssmL2XHgddDg0YRCccBhoeDgodDAQqLg4ODgobLg///////////////////////////////////////////////////////////+UpwfzAAAC4FJREFUWMO9mHdcU+cax4tFk6PWDm2r3Xve9ra9e++LJpAQRjgkkMSQkISTpQQIK8EwEoGEFaZsARkyi+w9BUWQpThQ66ijam3vvX/f5z0HqFCwtr2f+wMOgXzyPb/n977vc95zHnnk/yEaJTqNfPWjMHRSGDrA6x/CAhs0+oZfPffmG487gR5/482nXt5AR//9vmboP3+ORCyKyRQKH//dH7+XLaA889SjTqtIyPvryxseMi4Idi0MgPDA+sDXocTvZqF8314d4ywEBUbWB378Mv07s0IJ/3J1N064oYTgDNfXx08Wblr/HVGBnV+sUZUTU0gYcCHvaLxCE9W2cccDSeDnuTUwTkIYNQ6MHe4QF9a/sbLr1QeQgPPrtThOHKaQCa7CcUNcbazPtaqjf18zJ6jrI+e1QRwACTl2Gc+hUJPZbXKQfbQGCTiv24VM5oqKQOGDXiGx4UKhszOAjvKGLWcm268F8oyvY6uVB5xXFTbOShAUU6Mb04c2yHtwOAuEPTxstTS3XVPwiJTNq3iCfD4IVCgIoXClo5RUfVLo/tDxojJ4U8iROTgER5Vlmup5xrAzH6xiib5BEajQ1PSEC5ctMKbTXr2+fGhoqPzIVFspkPCjzZnNMsPZOJnBVvrohpUkGg37WKGIV/T0LCPBSDnHjp8bN02Np6W13jvfAyRe4IjFIGtTG+w2o/MfMNrKwnbEK+Lj4u12RHJ2cuYwST9MZqnlbMHFixcLzqeNnTt32QjF8Wxt8Q7FVhkB+QvfXh4TLIwP4+uDrXG2kpKalGQCR2ONlpeTs2V29mbBxYKColB9mj4hDGc644T6aly3UsaB0wkffeb+4sDQZmtcfZw1WFFSEhZWlmwEEh4Oh/DwszcLQDdnOo+kgdpxJw4U19TUXWXHhUYj7vTUsuLoG6zWuPh6tTpeodCEpaSUGQicKDUYw8NrlAU3LxbcnL19QZ+WVl5uwpkcJ9xWb0++psAJux13WmaJju2wRoKjSAA112pSUjRlyaU9ySWGE+JjCeNH9k8VzVw1peWVD2UMoAXHKSkjCFMmD0cg3n2LDobsQ2ukOi64KVihaG6uDdMALDEx2WbYN3cqLzonKyPt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 1x, /Hephaestus_IT/assets/sergey-rybachok-2x-fa1eb7db.png 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAALlUExURUdwTPDr15SVlf3+/VhcYoWFhdfX0ltbWBQTHxMWJaimmqGhocfGvp2dn5mZm/7//wwSGg4VHfv8+6Cgo5aYm5aXmdnczyAmK0hMUMHAufv8/QwQFBEVHB0fJ5iWk+Le1MTAs+/t3T5BR+vo2f7+/v7+/g4UG/v9/ZSdpFthY0BBRFJaXIKTp9va0M7FsVFVWPr38OHf0Ghybz1BSPf3+/39+v7+/vz8/Pz8/Wl0dFxeZPr8/F5gY/z++/f38GJgYoyLf8O6qOPex87U3Pn57HN4c3+FfP7//w4SGAwPFREXIP3//////g8VHBIZIhkfKSEnMv///BUcJqmqrCUrOBwiLqOkpbKztf7++aeoqv799aGho7a1taytrS0zQfz+/aWmqCkvPp2foK+wr7GxsVtjZFRgYP357qKhoOXh0rq5uvv89b22ppqcm8/Js93c1KioqL7Av8LCwevl05aXmLy8vNTMuLi3tlBQVGZjZeHf2vn6+a2usci/q/j16/r58cfEusTExYN/eEJHUmdwbtLT1NnSv+rv9M3IvmJdX+PcyXFvbOfr7svEsOvn22Rpa+7r5eTk4Hx8fklFRvTy5tfe5TQyNdTQwzM4R2lvczk+SU1aXI+Pj0FDSuDk6c+8sM7OxKSOiI2Ng32EgfDr4PPy8Obl2nyMnkQ/Qvjp2IWHgJOUh5qboHh0dOjm5NfXzl9qZt/YwoSAgNvk8Nnb3F9ZWMG8qt3ZzKOilFZLSra0pauqnr+lmIt4crGxopmZkPDx7I+TlfHz98fJxIqGg9fY2D05Pfzz5Pby4MHAtHplYYaHjMjLylZWW83NzndubMjP1nB5dNfWyJOBe7rCzraekcivonZ3fH+CiYiLj9PRy8G7r3BlY5qJgqGfjmxbWdPBtJair4a1jqObl4yXpbKlmH19coShhygoK5qsusy2qqexvevz/LCUiK67yBobH5GdqYNwapqrmL/O4nF9i5a+mqq/tDv9VLQAAAB0dFJOUwD+fe/+JiMBAgb94ZWj2uB48ILwZZQTF1FmkZ7gJ1BdRILvnNCwynGyssmL2XHgddDg0YRCccBhoeDgodDAQqLg4ODgobLg///////////////////////////////////////////////////////////+UpwfzAAAC4FJREFUWMO9mHdcU+cax4tFk6PWDm2r3Xve9ra9e++LJpAQRjgkkMSQkISTpQQIK8EwEoGEFaZsARkyi+w9BUWQpThQ66ijam3vvX/f5z0HqFCwtr2f+wMOgXzyPb/n977vc95zHnnk/yEaJTqNfPWjMHRSGDrA6x/CAhs0+oZfPffmG487gR5/482nXt5AR//9vmboP3+ORCyKyRQKH//dH7+XLaA889SjTqtIyPvryxseMi4Idi0MgPDA+sDXocTvZqF8314d4ywEBUbWB378Mv07s0IJ/3J1N064oYTgDNfXx08Wblr/HVGBnV+sUZUTU0gYcCHvaLxCE9W2cccDSeDnuTUwTkIYNQ6MHe4QF9a/sbLr1QeQgPPrtThOHKaQCa7CcUNcbazPtaqjf18zJ6jrI+e1QRwACTl2Gc+hUJPZbXKQfbQGCTiv24VM5oqKQOGDXiGx4UKhszOAjvKGLWcm268F8oyvY6uVB5xXFTbOShAUU6Mb04c2yHtwOAuEPTxstTS3XVPwiJTNq3iCfD4IVCgIoXClo5RUfVLo/tDxojJ4U8iROTgER5Vlmup5xrAzH6xiib5BEajQ1PSEC5ctMKbTXr2+fGhoqPzIVFspkPCjzZnNMsPZOJnBVvrohpUkGg37WKGIV/T0LCPBSDnHjp8bN02Np6W13jvfAyRe4IjFIGtTG+w2o/MfMNrKwnbEK+Lj4u12RHJ2cuYwST9MZqnlbMHFixcLzqeNnTt32QjF8Wxt8Q7FVhkB+QvfXh4TLIwP4+uDrXG2kpKalGQCR2ONlpeTs2V29mbBxYKColB9mj4hDGc644T6aly3UsaB0wkffeb+4sDQZmtcfZw1WFFSEhZWlmwEEh4Oh/DwszcLQDdnOo+kgdpxJw4U19TUXWXHhUYj7vTUsuLoG6zWuPh6tTpeodCEpaSUGQicKDUYw8NrlAU3LxbcnL19QZ+WVl5uwpkcJ9xWb0++psAJux13WmaJju2wRoKjSAA112pSUjRlyaU9ySWGE+JjCeNH9k8VzVw1peWVD2UMoAXHKSkjCFMmD0cg3n2LDobsQ2ukOi64KVihaG6uDdMALDEx2WbYN3cqLzonKyPt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"
+            alt="Sergey Rybachok photo"
+            width="64"
+            height="64"
+            class="photo-testimonials"
+          />
+        </picture>
+        <div class="testimonials-list-item">
+          <h3 class="div-title">Sergey Rybachok</h3>
+          <p class="div-text">
+            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+            simply masterpieces! I fell in love with the quality of the
+            materials and the skill of the artisans behind each product. This is
+            my favorite embroidery shop where I always find something special
+            and unique.
+          </p>
+        </div>
+      </li>
 
-            <li class="first-testimonial">
-                <picture class="testimonial-picture">
-                    <source srcset="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png 1x, /Hephaestus_IT/assets/maria-tkachuk-2x-376b0790.png 2x"
-                        media="(min-width: 375px)">
-                    <img src="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png" alt="Maria Tkachuk photo" width="64" height="64"
-                        class="photo-testimonials" />
-                </picture>
-                <div class="testimonials-list-item">
-                    <h3 class="div-title">Maria Tkachuk</h3>
-                    <p class="div-text">I was pleasantly surprised by the variety of embroidery offered by Vyshyvanka
-                        Vibes.
-                        They have models for every taste -
-                        from classic to modern. I bought an embroidered dress to celebrate a special occasion and
-                        received
-                        impeccable service
-                        and refinement in every detail.</p>
-                </div>
-            </li>
-
-
-            <li class="second-testimonial">
-                <picture class="testimonial-picture">
-                    <source srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAALlUExURUdwTPDr15SVlf3+/VhcYoWFhdfX0ltbWBQTHxMWJaimmqGhocfGvp2dn5mZm/7//wwSGg4VHfv8+6Cgo5aYm5aXmdnczyAmK0hMUMHAufv8/QwQFBEVHB0fJ5iWk+Le1MTAs+/t3T5BR+vo2f7+/v7+/g4UG/v9/ZSdpFthY0BBRFJaXIKTp9va0M7FsVFVWPr38OHf0Ghybz1BSPf3+/39+v7+/vz8/Pz8/Wl0dFxeZPr8/F5gY/z++/f38GJgYoyLf8O6qOPex87U3Pn57HN4c3+FfP7//w4SGAwPFREXIP3//////g8VHBIZIhkfKSEnMv///BUcJqmqrCUrOBwiLqOkpbKztf7++aeoqv799aGho7a1taytrS0zQfz+/aWmqCkvPp2foK+wr7GxsVtjZFRgYP357qKhoOXh0rq5uvv89b22ppqcm8/Js93c1KioqL7Av8LCwevl05aXmLy8vNTMuLi3tlBQVGZjZeHf2vn6+a2usci/q/j16/r58cfEusTExYN/eEJHUmdwbtLT1NnSv+rv9M3IvmJdX+PcyXFvbOfr7svEsOvn22Rpa+7r5eTk4Hx8fklFRvTy5tfe5TQyNdTQwzM4R2lvczk+SU1aXI+Pj0FDSuDk6c+8sM7OxKSOiI2Ng32EgfDr4PPy8Obl2nyMnkQ/Qvjp2IWHgJOUh5qboHh0dOjm5NfXzl9qZt/YwoSAgNvk8Nnb3F9ZWMG8qt3ZzKOilFZLSra0pauqnr+lmIt4crGxopmZkPDx7I+TlfHz98fJxIqGg9fY2D05Pfzz5Pby4MHAtHplYYaHjMjLylZWW83NzndubMjP1nB5dNfWyJOBe7rCzraekcivonZ3fH+CiYiLj9PRy8G7r3BlY5qJgqGfjmxbWdPBtJair4a1jqObl4yXpbKlmH19coShhygoK5qsusy2qqexvevz/LCUiK67yBobH5GdqYNwapqrmL/O4nF9i5a+mqq/tDv9VLQAAAB0dFJOUwD+fe/+JiMBAgb94ZWj2uB48ILwZZQTF1FmkZ7gJ1BdRILvnNCwynGyssmL2XHgddDg0YRCccBhoeDgodDAQqLg4ODgobLg///////////////////////////////////////////////////////////+UpwfzAAAC4FJREFUWMO9mHdcU+cax4tFk6PWDm2r3Xve9ra9e++LJpAQRjgkkMSQkISTpQQIK8EwEoGEFaZsARkyi+w9BUWQpThQ66ijam3vvX/f5z0HqFCwtr2f+wMOgXzyPb/n977vc95zHnnk/yEaJTqNfPWjMHRSGDrA6x/CAhs0+oZfPffmG487gR5/482nXt5AR//9vmboP3+ORCyKyRQKH//dH7+XLaA889SjTqtIyPvryxseMi4Idi0MgPDA+sDXocTvZqF8314d4ywEBUbWB378Mv07s0IJ/3J1N064oYTgDNfXx08Wblr/HVGBnV+sUZUTU0gYcCHvaLxCE9W2cccDSeDnuTUwTkIYNQ6MHe4QF9a/sbLr1QeQgPPrtThOHKaQCa7CcUNcbazPtaqjf18zJ6jrI+e1QRwACTl2Gc+hUJPZbXKQfbQGCTiv24VM5oqKQOGDXiGx4UKhszOAjvKGLWcm268F8oyvY6uVB5xXFTbOShAUU6Mb04c2yHtwOAuEPTxstTS3XVPwiJTNq3iCfD4IVCgIoXClo5RUfVLo/tDxojJ4U8iROTgER5Vlmup5xrAzH6xiib5BEajQ1PSEC5ctMKbTXr2+fGhoqPzIVFspkPCjzZnNMsPZOJnBVvrohpUkGg37WKGIV/T0LCPBSDnHjp8bN02Np6W13jvfAyRe4IjFIGtTG+w2o/MfMNrKwnbEK+Lj4u12RHJ2cuYwST9MZqnlbMHFixcLzqeNnTt32QjF8Wxt8Q7FVhkB+QvfXh4TLIwP4+uDrXG2kpKalGQCR2ONlpeTs2V29mbBxYKColB9mj4hDGc644T6aly3UsaB0wkffeb+4sDQZmtcfZw1WFFSEhZWlmwEEh4Oh/DwszcLQDdnOo+kgdpxJw4U19TUXWXHhUYj7vTUsuLoG6zWuPh6tTpeodCEpaSUGQicKDUYw8NrlAU3LxbcnL19QZ+WVl5uwpkcJ9xWb0++psAJux13WmaJju2wRoKjSAA112pSUjRlyaU9ySWGE+JjCeNH9k8VzVw1peWVD2UMoAXHKSkjCFMmD0cg3n2LDobsQ2ukOi64KVihaG6uDdMALDEx2WbYN3cqLzonKyPt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 1x, /Hephaestus_IT/assets/sergey-rybachok-2x-fa1eb7db.png 2x"
-                        media="(min-width: 375px)">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAACxMAAAsTAQCanBgAAALlUExURUdwTPDr15SVlf3+/VhcYoWFhdfX0ltbWBQTHxMWJaimmqGhocfGvp2dn5mZm/7//wwSGg4VHfv8+6Cgo5aYm5aXmdnczyAmK0hMUMHAufv8/QwQFBEVHB0fJ5iWk+Le1MTAs+/t3T5BR+vo2f7+/v7+/g4UG/v9/ZSdpFthY0BBRFJaXIKTp9va0M7FsVFVWPr38OHf0Ghybz1BSPf3+/39+v7+/vz8/Pz8/Wl0dFxeZPr8/F5gY/z++/f38GJgYoyLf8O6qOPex87U3Pn57HN4c3+FfP7//w4SGAwPFREXIP3//////g8VHBIZIhkfKSEnMv///BUcJqmqrCUrOBwiLqOkpbKztf7++aeoqv799aGho7a1taytrS0zQfz+/aWmqCkvPp2foK+wr7GxsVtjZFRgYP357qKhoOXh0rq5uvv89b22ppqcm8/Js93c1KioqL7Av8LCwevl05aXmLy8vNTMuLi3tlBQVGZjZeHf2vn6+a2usci/q/j16/r58cfEusTExYN/eEJHUmdwbtLT1NnSv+rv9M3IvmJdX+PcyXFvbOfr7svEsOvn22Rpa+7r5eTk4Hx8fklFRvTy5tfe5TQyNdTQwzM4R2lvczk+SU1aXI+Pj0FDSuDk6c+8sM7OxKSOiI2Ng32EgfDr4PPy8Obl2nyMnkQ/Qvjp2IWHgJOUh5qboHh0dOjm5NfXzl9qZt/YwoSAgNvk8Nnb3F9ZWMG8qt3ZzKOilFZLSra0pauqnr+lmIt4crGxopmZkPDx7I+TlfHz98fJxIqGg9fY2D05Pfzz5Pby4MHAtHplYYaHjMjLylZWW83NzndubMjP1nB5dNfWyJOBe7rCzraekcivonZ3fH+CiYiLj9PRy8G7r3BlY5qJgqGfjmxbWdPBtJair4a1jqObl4yXpbKlmH19coShhygoK5qsusy2qqexvevz/LCUiK67yBobH5GdqYNwapqrmL/O4nF9i5a+mqq/tDv9VLQAAAB0dFJOUwD+fe/+JiMBAgb94ZWj2uB48ILwZZQTF1FmkZ7gJ1BdRILvnNCwynGyssmL2XHgddDg0YRCccBhoeDgodDAQqLg4ODgobLg///////////////////////////////////////////////////////////+UpwfzAAAC4FJREFUWMO9mHdcU+cax4tFk6PWDm2r3Xve9ra9e++LJpAQRjgkkMSQkISTpQQIK8EwEoGEFaZsARkyi+w9BUWQpThQ66ijam3vvX/f5z0HqFCwtr2f+wMOgXzyPb/n977vc95zHnnk/yEaJTqNfPWjMHRSGDrA6x/CAhs0+oZfPffmG487gR5/482nXt5AR//9vmboP3+ORCyKyRQKH//dH7+XLaA889SjTqtIyPvryxseMi4Idi0MgPDA+sDXocTvZqF8314d4ywEBUbWB378Mv07s0IJ/3J1N064oYTgDNfXx08Wblr/HVGBnV+sUZUTU0gYcCHvaLxCE9W2cccDSeDnuTUwTkIYNQ6MHe4QF9a/sbLr1QeQgPPrtThOHKaQCa7CcUNcbazPtaqjf18zJ6jrI+e1QRwACTl2Gc+hUJPZbXKQfbQGCTiv24VM5oqKQOGDXiGx4UKhszOAjvKGLWcm268F8oyvY6uVB5xXFTbOShAUU6Mb04c2yHtwOAuEPTxstTS3XVPwiJTNq3iCfD4IVCgIoXClo5RUfVLo/tDxojJ4U8iROTgER5Vlmup5xrAzH6xiib5BEajQ1PSEC5ctMKbTXr2+fGhoqPzIVFspkPCjzZnNMsPZOJnBVvrohpUkGg37WKGIV/T0LCPBSDnHjp8bN02Np6W13jvfAyRe4IjFIGtTG+w2o/MfMNrKwnbEK+Lj4u12RHJ2cuYwST9MZqnlbMHFixcLzqeNnTt32QjF8Wxt8Q7FVhkB+QvfXh4TLIwP4+uDrXG2kpKalGQCR2ONlpeTs2V29mbBxYKColB9mj4hDGc644T6aly3UsaB0wkffeb+4sDQZmtcfZw1WFFSEhZWlmwEEh4Oh/DwszcLQDdnOo+kgdpxJw4U19TUXWXHhUYj7vTUsuLoG6zWuPh6tTpeodCEpaSUGQicKDUYw8NrlAU3LxbcnL19QZ+WVl5uwpkcJ9xWb0++psAJux13WmaJju2wRoKjSAA112pSUjRlyaU9ySWGE+JjCeNH9k8VzVw1peWVD2UMoAXHKSkjCFMmD0cg3n2LDobsQ2ukOi64KVihaG6uDdMALDEx2WbYN3cqLzonKyPt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" alt="Sergey Rybachok photo" width="64" height="64"
-                        class="photo-testimonials" />
-                </picture>
-                <div class="testimonials-list-item">
-                    <h3 class="div-title">Sergey Rybachok</h3>
-                    <p class="div-text">Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are simply
-                        masterpieces! I fell in love with the quality
-                        of the materials and the skill of the artisans behind each product. This is my favorite
-                        embroidery
-                        shop where I always
-                        find something special and unique.</p>
-                </div>
-            </li>
-
-
-            <li class="third-testimonial">
-                <picture class="testimonial-picture">
-                    <source srcset="/Hephaestus_IT/assets/natalia-chatuk-1x-5a48f802.png 1x, /Hephaestus_IT/assets/natalia-chatuk-2x-c83deeb1.png 2x"
-                        media="(min-width: 375px)">
-                    <img src="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png" alt="Natalia Chatuk photo" width="64" height="64"
-                        class="photo-testimonials" />
-                </picture>
-                <div class="testimonials-list-item">
-                    <h3 class="div-title">Natalia Chatuk</h3>
-                    <p class="div-text">Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian culture.
-                        Their embroidery reflects the spirit and
-                        traditions of our people. I not only buy embroidered shirts for myself, but also give them to my
-                        friends abroad as a
-                        symbol of our beauty and national pride.</p>
-                </div>
-            </li>
-        </ul>
-    </div>
+      <li class="third-testimonial">
+        <picture class="testimonial-picture">
+          <source
+            srcset="/Hephaestus_IT/assets/natalia-chatuk-1x-5a48f802.png 1x, /Hephaestus_IT/assets/natalia-chatuk-2x-c83deeb1.png 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            src="/Hephaestus_IT/assets/maria-tkachuk-1x-56df594f.png"
+            alt="Natalia Chatuk photo"
+            width="64"
+            height="64"
+            class="photo-testimonials"
+          />
+        </picture>
+        <div class="testimonials-list-item">
+          <h3 class="div-title">Natalia Chatuk</h3>
+          <p class="div-text">
+            Vyshyvanka Vibes is a real find for everyone who appreciates
+            Ukrainian culture. Their embroidery reflects the spirit and
+            traditions of our people. I not only buy embroidered shirts for
+            myself, but also give them to my friends abroad as a symbol of our
+            beauty and national pride.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
+
     </main>
   <footer class="footer ornament-footer">
   <div class="container container-last">
