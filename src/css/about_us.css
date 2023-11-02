@@ -1,0 +1,144 @@
+.about-us{
+  padding: 0 0 80px;
+}
+
+.element{
+    background-image:
+     url(../img/about_us/embroidery-mob-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 18px ;
+} 
+
+ @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-mob-2x.png);
+         background-size: 250px;
+    }
+} 
+
+.about-us-text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+.about-text-container{
+  margin-bottom: 50px;
+}
+.margin-width {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+font-size: 32px;
+font-weight: 500;
+line-height: 1.4;
+letter-spacing: -0.03em;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  .about-us{
+    padding:0 0 100px;
+  }
+  .about-text-container{
+    margin-bottom: 40px;
+  }
+.about-us-text{
+    font-size: 16px;
+}
+
+.element{
+    background-image:
+     url(../img/about_us/embroidery-tab-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 50px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-tab-2x.png);
+         background-size: 369px;
+    }
+}
+
+.section-title {
+font-size: 44px;
+line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us{
+    padding: 0 0 150px;
+  }
+  .about {
+    display: flex;
+    gap: 50px;
+  }
+
+  .about-text-container {
+    padding: 45px 0;
+    margin-bottom: 0;
+  }
+
+  .about-us-text {
+    width: 436px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: left;
+  }
+
+  .element{
+    background-image:
+     url(../img/about_us/embroidery-dekstop-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 70px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-dekstop-2x.png);
+         background-size: 385px;
+    }
+}
+}
+@media screen and (min-width: 1440px){
+  .about-text-container {
+    padding: 78px 0;
+  }
+
+  .about-us-text {
+    width: 481px;
+  }
+
+  .element{
+    background-image:
+     url(../img/about_us/embroidery-dekstop1440-1x.png);
+    background-repeat: no-repeat;
+    background-position: right 0% bottom 70px ;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .element{
+        background-image:
+         url(../img/about_us/embroidery-dekstop1440-2x.png);
+         background-size: 545px;
+    }
+}
+}

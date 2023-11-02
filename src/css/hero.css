@@ -1,0 +1,231 @@
+.hero {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+}
+
+.hero-title-wrap {
+  color: #ecd979;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+}
+
+.hero-discription {
+  display: none;
+}
+
+.hero-discription-text {
+  color: rgba(252, 249, 249, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+
+.hero-button-box {
+  margin: 20px 110px 40px 70px;
+  width: 154px;
+}
+
+.hero-button {
+  padding: 14px 36px;
+  background-color: inherit;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.hero-button:focus,
+.hero-button:hover,
+.hero-button:active {
+  border: 1px solid #ecd979;
+}
+
+
+
+.hero-img-wrap {
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.hero-embroidery-element-img {
+  display: none;
+}
+
+.hero-button-icons {
+  margin-left: 10px;
+}
+
+/*===== TABLET =====*/
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 106px;
+    padding-bottom: 100px;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-container-box {
+    flex-direction: column;
+  }
+
+  .hero-title {
+    max-width: 549px;
+    font-size: 54px;
+    line-height: 1.18;
+  }
+
+  .hero-title-wrap {
+    font-size: 54px;
+    line-height: 1.18;
+  }
+
+  .hero-discription {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    right: 32px;
+    top: -26px;
+  }
+
+  .hero-discription-icons {
+    fill: #ecd979;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-discription-icons:focus,
+  .hero-discription-icons:hover {
+    color: #fcf9f9;
+  }
+
+  .hero-discription-text {
+    width: 115px;
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-button-box {
+    margin: 40px 240px 40px 141px;
+    width: 168px;
+  }
+
+  .hero-button-link {
+    font-size: 16px;
+  }
+
+  .hero-picture-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-picture {
+    width: 100%;
+  }
+
+  .hero-embroidery-element-img {
+    display: flex;
+    width: 157px;
+    position: absolute;
+    right: 32px;
+    bottom: 0px;
+  }
+}
+
+/* =====DESKTOP===== */
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-bottom: 150px;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .hero-container-box {
+    margin-left: 40px;
+  }
+
+  .hero-title {
+    padding-top: 94px;
+    max-width: 518px;
+  }
+
+  .hero-discription {
+    right: 100px;
+    top: 34px;
+  }
+
+  .hero-picture {
+    width: 100%;
+  }
+
+  .hero-embroidery-element-img {
+    width: 142px;
+    right: 96px;
+  }
+
+  .hero-button {
+    display: flex;
+  }
+}
+
+/* =====DESKTOP1440===== */
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    padding-top: 66px;
+    max-width: 630px;
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-title-wrap {
+    font-size: 64px;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-discription {
+    top: 66px;
+  }
+
+  .hero-button-box {
+    margin-right: 323px;
+  }
+
+  .hero-embroidery-element-img {
+    width: 139px;
+    right: 100px;
+  }
+}

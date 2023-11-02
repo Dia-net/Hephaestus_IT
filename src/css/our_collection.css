@@ -1,0 +1,232 @@
+.our-collection{
+  padding: 18px 0 62px;
+}
+@media screen and (min-width: 768px){
+  .our-collection{
+    padding: 0 0 100px;
+  }
+}
+@media screen and (min-width: 1280px){
+  .our-collection{
+    padding: 0 0 150px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .our-collection{
+    padding: 0 0 150px;
+  }
+}
+
+.collection{
+  background-image: url(../img/our-collection-png/mob1x.png);
+  background-repeat: no-repeat;
+  background-position: left 0% top 316px ;
+  background-size: 72px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection{
+      background-image:url(../img/our-collection-png/mob2x.png);
+      background-size: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .collection{
+    background-image: url(../img/our-collection-png/tablet1x.png);
+    background-position: left 0 top 221px;
+    background-size: 114px;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .collection{
+      background-image:url(../img/our-collection-png/tablet2x.png);
+      background-size: 114px;
+  }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .collection{
+    background-image: url(../img/our-collection-png/desktop1x.png);
+    background-position: left 0 top 221px;
+    background-size: 169px; 
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.collection{
+    background-image:url(../img/our-collection-png/desktop2x.png);
+    background-size: 169px; 
+}
+}
+
+}
+
+@media screen and (min-width: 1440px) {
+  .collection{
+    background-image: url(../img/our-collection-png/desktop1440-1x.png);
+    background-position: left 0 top 231px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.collection{
+    background-image:url(../img/our-collection-png/desktop1440-2x.png);
+    background-size: 169px;
+}
+}
+}
+
+.our-title{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+ 
+}
+.our-img{
+  cursor: pointer;
+}
+@media screen and (min-width: 768px){
+  .our-title{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -1.32px;
+  }
+}
+
+.our-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .our-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-img{
+    width: 342px;
+    height: 430px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-img{
+    width: 347px;
+    height: 430px;
+  }
+  .our-list {
+    gap: 40px 20px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .our-img{
+    width: 400px;
+    height: 430px;
+  }
+}
+
+
+
+
+.our-name{
+  padding: 18px 0;
+}
+
+
+.our-subtitle{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-subtitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .our-name{
+    padding:18px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .our-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em; 
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .our-name{
+    padding:18px 0 0;
+  }
+}
+
+
+.our-list-text{
+  color: rgba(252, 249, 249, 0.40);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1em;
+  letter-spacing: 0.7px;
+}
+
+@media screen and (min-width: 768px) {
+  .our-list-text{
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.9px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .our-list-text{
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.9px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+.our-list-item {
+  width: calc((100% - 20px) / 2);
+}
+}
+
+@media screen and (min-width: 1280px) {
+.our-list-item {
+  width: calc((100% - 40px) / 3);
+ }
+}
