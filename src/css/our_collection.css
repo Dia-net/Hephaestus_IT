@@ -18,11 +18,10 @@
 }
 
 .collection{
-  background-image: url(../img/our-collection-png/mob1x.png);
   background-repeat: no-repeat;
   background-position: left 0% top 316px ;
   background-size: 72px;
-}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -33,6 +32,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .collection{
     background-image: url(../img/our-collection-png/tablet1x.png);
     background-position: left 0 top 221px;
@@ -53,6 +53,7 @@
     background-image: url(../img/our-collection-png/desktop1x.png);
     background-position: left 0 top 221px;
     background-size: 169px; 
+
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
@@ -61,8 +62,6 @@
     background-image:url(../img/our-collection-png/desktop2x.png);
     background-size: 169px; 
 }
-}
-
 }
 
 @media screen and (min-width: 1440px) {
@@ -87,7 +86,6 @@
   letter-spacing: -0.03em;
   text-align: center;
   margin-bottom: 40px;
- 
 }
 .our-img{
   cursor: pointer;
@@ -113,8 +111,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px 20px;
+
   }
 }
+
 
 @media screen and (min-width: 768px) {
   .our-img{
@@ -140,11 +140,9 @@
 
 
 
-
 .our-name{
   padding: 18px 0;
 }
-
 
 .our-subtitle{
   overflow: hidden;
@@ -190,6 +188,14 @@
   }
 }
 
+@media screen and (min-width: 1440px){
+  .our-subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em; 
+    letter-spacing: 0.9px;
+  }
+}
 
 .our-list-text{
   color: rgba(252, 249, 249, 0.40);
