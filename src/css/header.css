@@ -204,9 +204,6 @@
   .box-box-header {
     gap: 20px;
   }
-  .button-mob-menu {
- 
-  }
   .mob-list-item:not(:last-child) {
     margin-bottom: 25px;
   }
