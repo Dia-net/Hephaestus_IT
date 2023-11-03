@@ -333,8 +333,8 @@
           type="text"
           name="user-name"
           maxlength="10"
-          pattern="[A-Za-z0-9]{6,}"
-          title="Ім'я не может бути меншим за 6 латинських символів."
+          pattern="[A-Za-z0-9]{3,}"
+          title="The name cannot be less than 3 Latin characters."
           class="your-order-input"
           placeholder="Enter your full name"
           required
@@ -342,9 +342,9 @@
         <input
           type="email"
           name="user-email"
-          minlength="6"
-          pattern="[A-Za-z0-9]{6,}"
-          title="І-мейл не может бути меншим за 6 латинських символів."
+          minlength="3"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}"
+          title="The email cannot be less than 3 Latin characters."
           class="your-order-input"
           placeholder="Enter your email"
           required
